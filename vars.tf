@@ -1,9 +1,15 @@
-variable = "rg_name" { 
-    type   = string
+variable "resource_group_name" {
+  type        = string
 }
-variable = "rg_location" {
-    type   = string
+variable "location" {
+  type        = string
 }
-variable = "key_vault_name" {
-    type   = string
+variable "name_keyvault" {
+  type        = string
+}
+variable "tenant_id" {
+  type        = string
+}
+variable "sku_keyvault" {
+  type        = string
 }
